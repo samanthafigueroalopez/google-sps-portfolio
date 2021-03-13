@@ -1,0 +1,107 @@
+h1{
+  color: rgb(42, 81, 165);
+     margin-top: 5;
+     text-align: center;
+     text-decoration: underline;
+     text-decoration-thickness: 2;
+     background-color: bisque;
+     background-blend-mode: hue;
+     text-decoration-thickness: 4.5;
+     font-style:italic;
+     
+  
+ }
+ h2{
+     text-align: center;
+     text-decoration-thickness: 0.5 ;
+     font-size:8;
+     font-style:italic;
+     color: whitesmoke
+     
+
+     
+ }
+ .navbar{
+     text-align: center;
+ }
+ .navbar_items{
+     text-align: center;
+ }
+ .mobile-menu{
+     text-align:center ;
+ }
+ .navbar_links{
+     background-color:rgb(248, 170, 229);
+     font-size: larger;
+     text-align: center;
+     text-indent: 10in;
+
+ }
+ .sami_menu{
+     display: flex;
+     text-align: center;
+ }
+ 
+ 
+ #menu_.is_active.sami:nth-child(2)
+ {
+     opacity: 0;
+     text-align: center;
+
+ }
+ .img-self{
+     width: 300;
+     height: 300;
+     border-image-outset: 3in;
+     image-orientation: from-image;
+ }
+ h3{
+     font-size: xx-large;
+     color:black;
+     text-align: center;
+     font-style: italic;
+     text-shadow: 1in;
+     font-size:xx-large;
+     text-decoration: underline;
+     
+ }
+ h4{
+     color: orange;
+     text-align:center;
+     font-size:xx-large;
+ font-style:italic;
+ border: 4in;
+ text-decoration:underline;
+ background-color:rgb(40, 60, 194)
+ }
+ h5{
+     color:rgb(4, 7, 14);
+     text-align:left;
+     font-size:xx-large;
+ font-style:italic;
+ border: 4in;
+ text-decoration:underline;
+ background-color:lavender;
+ background-blend-mode: color-burn;
+ text-align:center;
+ }
+ 
+ h6{
+     color: purple;
+     font-size: xx-large;
+     text-decoration: underline;
+     text-align: center;
+     font-style:oblique
+ }
+ h7{
+     font-size:large;
+     font-style: italic;
+
+ }
+ h8{
+     color:black;
+     font-style: italic;
+     text-align: center;
+     font-size: x-large;
+ }
+ 

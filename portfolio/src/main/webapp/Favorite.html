@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <body style="background-color:rgb(240, 179, 209);"></body>
+    <h5>Here are some of my Favorites:)</h5>
+    <style>
+       
+        body {
+background-color: rgb(243, 164, 210);
+          
+          background-blend-mode: hard-light;
+        }
+        
+        </style>
+
+        <p>
+            <h7>Here is a chart of some of my favorite films </h7><p>
+
+            *Godfather
+            <p>*Avengers Endgame
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+              google.charts.load('current', {'packages':['bar']});
+              google.charts.setOnLoadCallback(drawChart);
+        
+              function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                  ['Year it came out', 'Sales',  ],
+                  ['1972', 136300000,   ],
+                  ['2019', 2800000000, ],
+                  
+                ]);
+        
+                var options = {
+                  chart: {
+                    title: 'My Favorite Films',
+                    subtitle: 'Top Two',
+                  }
+                };
+        
+                var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+        
+                chart.draw(data, google.charts.Bar.convertOptions(options));
+              }
+              var data = google.visualization.arrayToDataTable([
+            ['Element', 'Density', { role: 'style' }, { role: 'annotation' } ],
+            ['Copper', 8.94, '#b87333', 'Cu' ],
+            ['Silver', 10.49, 'silver', 'Ag' ],
+            
+         ]);
+            </script>
+          </head>
+          <body>
+            <div id="columnchart_material" style="width: 600px; height: 500px;"></div>
+            </p>
+            <span class="tab"><h8> More Images I Like!</h8>
+            <P></P>
+
+         <img class="img-self" src="/gallery-images/56a372e8-4f1e-4858-a445-406b609aa2b8.JPG" width="400" height="420" alt="" hspace="70">
+         <img class="img-self" src="/gallery-images/IMG_0220.jpg" width="700" height="420" alt="" hspace="30">
+         <img class="img-self" src="/gallery-images/IMG_5462.jpg" width="400" height="420" alt="" hspace="20">
+         <img class="img-self" src="/gallery-images/IMG_8635.PNG" width="450" height="820" alt="" hspace="80">
+         <img class="img-self" src="/gallery-images/IMG_9647.jpg" width="500" height="620" alt="" hspace="20">
+
+         <img class="img-self" src="/gallery-images/f6d37e5c-8070-4f5f-ba1f-0d035b8ef4a6.JPG" width="400" height="620" alt="" hspace="80">
+        
+
+
+
+
+
+
+
+</body>
+</html>
