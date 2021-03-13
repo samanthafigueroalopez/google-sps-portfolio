@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../webapp"
+		},
+		{
+			"path": "servlets"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "webapp"
+	}
+}
